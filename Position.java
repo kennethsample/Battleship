@@ -18,4 +18,8 @@ public class Position
 		return false;
 	}
 
+        @Override
+        public String toString(){
+            return "x: "+this.x+", y: "+this.y;
+        }
 }
